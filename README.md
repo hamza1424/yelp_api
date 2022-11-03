@@ -124,5 +124,5 @@
 <p> <code> api_key = ''  </code></p>
 
 <h4> get yelp dataset  </h4>
-<p> <code> df = get_data(api_key) </code></p>
+<p> <code> df = yelp_data_process.get_data(api_key) </code></p>
 
