@@ -159,6 +159,6 @@
 <p> <code> yelp_df = pd.read_csv('yelp_df.csv') </code>  </p> 
 
 <h4> running data_processing_pipeline </h4>
-<p> <code> processed_df = yelp_data_process.all_preprocessing(df, area_pop_data) </code> <p>
+<p> <code> processed_df = yelp_data_process.all_preprocessing(yelp_df, area_pop_data) </code> <p>
     
  <p>After running this code, you will get proprocessed_df. </p>
