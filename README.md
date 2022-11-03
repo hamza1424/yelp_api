@@ -2,7 +2,7 @@
 <p><br></p>
 <p> <code>YELP Fusion API</code> allows developers to extract business details from YELP. &nbsp;YELP Fusion API provides different <code>endpoints</code> for extracting different kinds of data related to businesses like <code>Business details, reviews, and business search </code>.</p>
 
-<p>Our package uses its specific end points to get the desired data that we need for our purpose.&nbsp;</p>
+<p>Our package uses its <code>two end points</code> to get the desired data that we need for our purpose.&nbsp;</p>
 <h2>All Endpoints by Fusion API:</h2>
 <p><br></p>
 <ul>
