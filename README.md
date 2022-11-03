@@ -112,7 +112,7 @@
 <p>So we get a max of <code>3450</code>of business per day.&nbsp;</p>
 <p>If we want to get unique business everyday we just need to pass offset parameters as 3,6,9 and so on..</p>
 <h3> Installation Guide </h3>
-<code>pip install yelp_Data_process</code>
+<code>pip install yelp_data_process</code>
 
 <h3> Code Exapmle </h3>
 <h4> import libraries </h4>
