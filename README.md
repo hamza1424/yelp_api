@@ -62,7 +62,7 @@
 <h3>1) &nbsp;Business Search Endpoint</h3>
   
 <p>We can get business using search endpoints, for that we provide different parameters like <code>state, city, category, longitude, latitude, radius </code>.</p>
-<p>We are providing <code>category</code>and <code>state names </code>to get all the results from each state with all categories.&nbsp;</p>
+<p>We are providing <code>category</code>and <code>state names</code>to get all the results from each state with all categories.&nbsp;</p>
 <p>Now we get some details from the search point as well but there is some other information that we need for our requirements. Information like Business hours, and price is provided in Business Detail Search Endpoint.&nbsp;</p>
 <p>We are mainly using a business search endpoint to store <code>business ids</code> and then we are passing business ids to business details endpoint to get business details about individual business.&nbsp;</p>
 
