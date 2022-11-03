@@ -155,7 +155,7 @@
 
 <h4> read state_area_population df and extracted df </h4>
 
-<p> <code>  state_area_population_df = pd.read_csv('state_area_df')</code>  </p>
+<p> <code>  state_area_population_df = pd.read_csv('state_area_df.csv')</code>  </p>
 <p> <code> yelp_df = pd.read_csv('yelp_df.csv') </code>  </p> 
 
 <h4> running data_processing_pipeline </h4>
