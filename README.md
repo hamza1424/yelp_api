@@ -126,3 +126,39 @@
 <h4> get yelp dataset  </h4>
 <p> <code> df = yelp_data_process.get_data(api_key) </code></p>
 
+<h2>Data Processing Pipelines&nbsp;</h2>
+<p>Now once we have extracted we are processing the data for further usage.</p>
+<p>Steps included:</p>
+<ul>
+    <li>
+        <p>Getting counts for each category from each state</p>
+    </li>
+    <li>
+        <p>Grouping by states with aggregation functions</p>
+    </li>
+    <li>
+        <p>Merging with States_area_population df</p>
+    </li>
+    <li>
+        <p>Dividing each category counts with state area and population</p>
+    </li>
+    <li>
+        <p>Normalizing data</p>
+    </li>
+</ul>
+<p>After processing we get <code>90 columns.&nbsp; </code></p>
+<p> <h3> Code Example </h3> </p>
+<h4> import libraries </h4>
+<p> <code> import pandas as pd  </code></p>
+<p> <code> import numpy as np </code></p>
+<p> <code> from yelp_data_processing import yelp_data_processing </code></p>
+
+<h4> read state_area_population df and extracted df </h4>
+
+<p> <code>  state_area_population_df = pd.read_csv('state_area_df')</code>  </p>
+<p> <code> yelp_df = pd.read_csv('yelp_df.csv') </code>  </p> 
+
+<h4> running data_processing_pipeline </h4>
+<p> <code> processed_df = yelp_data_process.all_preprocessing(df, area_pop_data) </code> <p>
+    
+ <p>After running this code, you will get proprocessed_df. </p>
