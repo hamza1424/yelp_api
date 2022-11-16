@@ -111,20 +111,6 @@
 <p>In our case we are using two endpoints so we can extract upto <code>~2K to 3K </code> business details per day. We are using <code>1122</code> api calls for getting business ids and then with every call we are getting at least 3 business. This results in <code>3450</code> business ids and then we are utilizing 3450 api calls to get business details.&nbsp;</p>
 <p>So we get a max of <code>3450</code>of business per day.&nbsp;</p>
 <p>If we want to get unique business everyday we just need to pass offset parameters as 3,6,9 and so on..</p>
-<h3> Installation Guide </h3>
-<code>pip install yelp_data_process</code>
-
-<h3> Code Exapmle </h3>
-<h4> import libraries </h4>
-<p> <code> import pandas as pd </code></p>
-<p> <code> import numpy as np  </code></p>
-<p> <code> from yelp_data_process import yelp_data_process  </code></p>
-
-<h4> get api key </h4>
-<p> <code> api_key = ''  </code></p>
-
-<h4> get yelp dataset  </h4>
-<p> <code> df = yelp_data_process.get_data(api_key) </code></p>
 
 <h2>Data Processing Pipelines&nbsp;</h2>
 <p>Now once we have extracted we are processing the data for further usage.</p>
@@ -146,19 +132,19 @@
         <p>Normalizing data</p>
     </li>
 </ul>
-<p>After processing we get <code>90 columns.&nbsp; </code></p>
-<p> <h3> Code Example </h3> </p>
+
+<h3> Installation Guide </h3>
+<code>pip install yelp_data_process</code>
+
+<h3> Code Exapmle </h3>
 <h4> import libraries </h4>
-<p> <code> import pandas as pd  </code></p>
-<p> <code> import numpy as np </code></p>
-<p> <code> from yelp_data_processing import yelp_data_processing </code></p>
+<p> <code> import pandas as pd </code></p>
+<p> <code> import numpy as np  </code></p>
+<p> <code> from yelp_data_process import yelp_data_process  </code></p>
 
-<h4> read state_area_population df and extracted df </h4>
+<h4> get api key </h4>
+<p> <code> api_key = ''  </code></p>
 
-<p> <code>  state_area_population_df = pd.read_csv('state_area_df.csv')</code>  </p>
-<p> <code> yelp_df = pd.read_csv('yelp_df.csv') </code>  </p> 
-
-<h4> running data_processing_pipeline </h4>
-<p> <code> processed_df = yelp_data_process.all_preprocessing(yelp_df, state_area_population_df) </code> <p>
-    
+<h4> get yelp dataset  </h4>
+<p> <code> df = yelp_data_process.get_data(api_key) </code></p>
  <p>After running this code, you will get proprocessed_df. </p>
