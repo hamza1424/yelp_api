@@ -144,7 +144,7 @@
 
 <h4> get api key </h4>
 <p> <code> api_key = ''  </code></p>
-
+<p> <code> # offset is optional, by default offset is 0, if you want new data everyday please give different value of offset. </code></p>
 <h4> get yelp dataset  </h4>
 <p> <code> df = yelp_data_process.get_data(api_key) </code></p>
  <p>After running this code, you will get proprocessed_df. </p>
