@@ -148,6 +148,14 @@
 <h4> get yelp dataset  </h4>
 <p> There are two main functions </p>
 <h4> 1. get_raw_data() </h4>
-<h4>
-<p> <code> df = yelp_data_process.get_data(api_key) </code></p>
+<p> This function will return raw data maximum of 3500 results of business details. </p>
+
+<p> <code> df = yelp_data_process.get_raw_data(api_key,offset=0) </code></p>
+
+<h4> 2. get_preprocessed_data() </h4>
+
+<p> This function will return preprocessed data to be used further. </p>
+
+<p> <code> df = yelp_data_process.get_preprocessed_data(api_key,offset=0) </code></p>
+
  <p>After running this code, you will get proprocessed_df. </p>
